@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 description = "A very primitive web and socket server library for basic self-hosting projects."
 authors = ["Jaiden Khosla"]
+license = "GPL-3.0"
 
 [dependencies.uuid]
 version = "1.19.0"
