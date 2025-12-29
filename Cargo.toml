@@ -1,0 +1,17 @@
+[package]
+name = "rusty_stormy"
+version = "0.1.0"
+edition = "2024"
+description = "A very primitive web and socket server library for basic self-hosting projects."
+authors = ["Jaiden Khosla"]
+
+[[bin]]
+name = "stormy"
+path = "src/lib.rs"
+
+[dependencies.uuid]
+version = "1.19.0"
+# Lets you generate random UUIDs
+features = [
+    "v4",
+]
