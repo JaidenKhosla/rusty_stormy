@@ -6,6 +6,10 @@ description = "A very primitive web and socket server library for basic self-hos
 authors = ["Jaiden Khosla"]
 license = "GPL-3.0"
 
+[dependencies]
+regex = "1.12.2"
+serde_json = "1.0.148"
+
 [dependencies.uuid]
 version = "1.19.0"
 # Lets you generate random UUIDs
