@@ -1,0 +1,6 @@
+This is a primitive server library that includes HTTPServer and SocketServer
+
+HttpServer -> rusty_stormy::HttpServer
+SocketServer -> rusty_stormy::SocketServer
+
+More documentation coming soon (I need to fully flesh out the design and test it for performance. In the mean time, read Server.rs and types.rs in each server's directory for some understanding)
